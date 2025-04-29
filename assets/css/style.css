@@ -71,6 +71,9 @@ h1 {
   margin-bottom: 12px;
   text-align: center;
   height: 60px;
+  display: flex;
+justify-content: center;
+align-items: center;
 }
 
 /* Imagem do card */
@@ -121,8 +124,8 @@ footer {
   margin-top: 60px;
   font-size: 0.9rem;
   color: var(--cor-footer);
-  position: absolute;
-  bottom: 0;
+  /* position: absolute;
+  bottom: 0; */
   height: 80px;
   display: flex;
   align-items: center;
@@ -155,11 +158,13 @@ footer a:hover {
 
   .card {
     max-width: 100%;
+    width: 70%;
     min-height: unset;
   }
 
   .card .card-image {
     height: auto;
+    max-width: 300px;
     padding: 0;
   }
 
