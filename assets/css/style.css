@@ -24,7 +24,7 @@
 body {
   font-family: var(--fonte-principal);
   /* background-color: var(--cor-fundo); */
-  background-image: url("/assets/image/logo-ebooksai.png");
+  background-image: url("assets/image/logo-ebooksai.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
